@@ -1,3 +1,41 @@
+# Retrieval Augmented Generation (RAGs)
+- Imagine creating a ChatGPT-like interface that taps into our own knowledge base to answer our queries.
+- That's precisely what RAG offers you!
+ 
+![image](https://github.com/mlvats/GenAI/assets/32443900/f2302250-6f20-4bc8-a77c-c2dbea96fa71)
+----
+1. **Custom knowledge base:** 
+- Custom Knowledge Base: A collection of relevant and up-to-date information that serves as a foundation for RAG.
+- It can be a database, a set of documents, or a combination of both.
+![image](https://github.com/mlvats/GenAI/assets/32443900/975f1b97-54a5-4b2f-89f2-680aa1f6a092)
+----
+2. **Chunking:**
+   - Chunking is the process of breaking down a large input text into smaller pieces.
+   - This ensures that the text fits the input size of the embedding model and improves retrieval efficiency.
+   - Implementing a smart chunking strategy can greatly enhance your RAG system!
+
+![image](https://github.com/mlvats/GenAI/assets/32443900/c3af7be0-fed0-473a-9cb3-f27e2c5559f1)
+-----
+3. ***Embeddings & Embedding Model:***
+   - A technique for representing text data as numerical vectors, which can be input into machine learning models.
+   - The embedding model is responsible for converting text into these vector
+![image](https://github.com/mlvats/GenAI/assets/32443900/866ae836-c07a-405c-8025-2aed4da2c828)
+---
+4. **Vector Databases:**
+     - A collection of pre-computed vector representations of text data for fast retrieval and similarity search, with capabilities like CRUD operations, metadata filtering, and horizontal scaling.
+    ![image](https://github.com/mlvats/GenAI/assets/32443900/867b6778-ca0a-4333-87a0-9d8f0b42922f)
+     ----
+     
+
+5. **User Chat Interface:**
+- A user-friendly interface that allows users to interact with the RAG system, providing input query and receiving output.
+- The query is converted to an embedding which is used to retrieve relevant context from Vector DB!
+![image](https://github.com/mlvats/GenAI/assets/32443900/a3cb8ca1-a8ef-44f7-9ae2-f76daa30bba2)
+
+- Ref - https://lightning.ai/lightning-ai/studios/rag-using-llama-3-by-meta-ai?utm_source=akshay
+
+--------------------
+-----------------------------
 ## Language Models
 - In a language modeling task, a model is trained to predict a missing word in a sequence of words.
 - there are two types of language models:
