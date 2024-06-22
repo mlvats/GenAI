@@ -50,6 +50,22 @@
 - Write comment and give an example. This will give suggestions
 - contril+i -> ask copilot to write code. ask copilot to write car with properties and methods
 - select the code and then press control+i, ask the copilot.. refactor this function so that the code to do this in more simpler steps
--  select the code and then press control+i, add "/" it gives different options
+- select the code and then press control+i, add "/" it gives different options ike doc, explain, fix, tests
+- select the code and then press control+i, add "/test" add "use mocha" and then "use mocha and chai" and then generate test cases. See how it works. It creates a seperate file.
+
+# Code Refactoring
+- select the code and then press control+i, ask the copilot.. refactor this function so that the code to do this in more simpler steps
+- select the code and then press control+i, ask the copilot.. rewrite this as and arrow function. (corresponding in python can be lambda)
+-  ask the copilot.. rewrite this code from class component to function component in React
+-  ask the copilot.. rewrite update the code with latest version, is very good. Little bit behid but good enough.
+-  Rewrite code from Angular to React
 -  
+
+# Generate test data
+- create a file test-data.js
+- generate an array of 10 user with name, age and e-mail (in Copilot chat)
+- actually i want users to have realistic names and e-mail. just hardcode names and e-mails. (in Copilot chat)
+- copy paste the code in the file and try to rector. select the code and the conrile+i, "add amdid property to each user", "add id property which has uuid as each user", "add hard coded uiud for each user"
+
 - 
+ 
