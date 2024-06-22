@@ -41,6 +41,5 @@
   - Privacy and Intellectual Property
   - Cost Factor
   - Limited Context Understanding
-
-  - 
+ 
  
