@@ -2,6 +2,7 @@
   - Very Advanced Auto Completion Code
   - Write Repetitive Code
   - Its a LLM
+  - Its a SSaS product, everyone uses the same LLM
 
 # Writing Code with GitHub Copilot
 - Autocompletion features and capabilities
@@ -41,6 +42,7 @@
   - Privacy and Intellectual Property
   - Cost Factor
   - Limited Context Understanding
+  - Cannot not be trained our own code and standards
  
  
 # Code Autocompletion
@@ -59,6 +61,7 @@
 -  ask the copilot.. rewrite this code from class component to function component in React
 -  ask the copilot.. rewrite update the code with latest version, is very good. Little bit behid but good enough.
 -  Rewrite code from Angular to React
+-  user the chat to rewrite the code in different language. "rewrite this code in python". "rewrite all this code in python" -> this will use the open files as input.
 -  
 
 # Generate test data
@@ -67,4 +70,26 @@
 - actually i want users to have realistic names and e-mail. just hardcode names and e-mails. (in Copilot chat)
 - copy paste the code in the file and try to rector. select the code and the conrile+i, "add amdid property to each user", "add id property which has uuid as each user", "add hard coded uiud for each user"
 
- 
+
+# Getting Better Suggestions
+- "If you want to change the output, first change the prompt"
+- Refine iteratively
+- Be specific about the framework/library/strategy you're using
+-  Use Copilot a lot
+- keep writing different function name and parameters to get better suggestions (getPercentiles(number)
+- /test "just log out the result calling duntions with different data"
+- /test "don't user mocha and chai, just use console.log"
+- "Create a function that inserts a users name, age, and e-mail into a paragrah tas and returns an html string."
+- we can ask from Copilot Chat - "Do you see any code vulnerability in this code" user code generated code from above to do this.
+
+# Code Refactoring 2
+- First write python func tion to
+- "rewrite this into an advanced python function that accepts a validated enum and generate the appropriate regex
+- use the chat more than auto completion
+- It uses open files as context
+
+# Github
+- Add comments to pull request
+- Do PR code review using github copilot
+- 
+- 
