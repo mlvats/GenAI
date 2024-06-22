@@ -48,4 +48,8 @@
 - Write comment and get code suggestions. Control+Enter will give suesstions
 - using Copilot and then use optioms like-  Can Fix trhe code, Can explain the code, generate documentation
 - Write comment and give an example. This will give suggestions
+- contril+i -> ask copilot to write code. ask copilot to write car with properties and methods
+- select the code and then press control+i, ask the copilot.. refactor this function so that the code to do this in more simpler steps
+-  select the code and then press control+i, add "/" it gives different options
+-  
 - 
