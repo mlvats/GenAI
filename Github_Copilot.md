@@ -43,3 +43,9 @@
   - Limited Context Understanding
  
  
+# Code Autocompletion
+- write a function name to get suggestions.
+- Write comment and get code suggestions. Control+Enter will give suesstions
+- using Copilot and then use optioms like-  Can Fix trhe code, Can explain the code, generate documentation
+- Write comment and give an example. This will give suggestions
+- 
