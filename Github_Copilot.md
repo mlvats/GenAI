@@ -67,5 +67,4 @@
 - actually i want users to have realistic names and e-mail. just hardcode names and e-mails. (in Copilot chat)
 - copy paste the code in the file and try to rector. select the code and the conrile+i, "add amdid property to each user", "add id property which has uuid as each user", "add hard coded uiud for each user"
 
-- 
  
