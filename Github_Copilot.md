@@ -111,8 +111,8 @@
 - Limited scope
 - Potential for bias
 - Security risks
--  Inaccurate code
--  Matches with public code
+- Inaccurate code
+- Matches with public code
 
 -  Github link - https://github.com/ldynia/workshop-github-copilot-chat
--  
+   
