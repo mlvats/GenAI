@@ -1,3 +1,19 @@
+
+#Copilot Shortcuts Linux
+
+| Shortcut | Description |
+| -------- | ----------- |
+| `tab` | Accept suggestion |
+| `alt+enter` | Show 10 suggestions |
+| `alt+/` | Show suggestions |
+| `alt+[` | Show previous suggestions |
+| `alt+]` | Show next suggestions |
+| `ctrl+alt+i`, `ctrl+shift+c` | Chat |
+| `ctrl+i` | Chat inline |
+| `ctrl+l` | Clear the session |
+| `ctrl+enter` | Insert into code |
+| `ctrl+alt+enter` | Insert into terminal |
+------------------------
 # What is GitHub Copilot?
   - Very Advanced Auto Completion Code
   - Write Repetitive Code
