@@ -92,4 +92,27 @@
 - Add comments to pull request
 - Do PR code review using github copilot
 - 
-- 
+---------------------------
+# Copilot Chat Can
+  - Generate unit test
+  - Generate documentation
+  - Generate code for a specific task
+  - Explain code
+  - Propose code fixes
+  - Answer coding questions
+
+# Prompt Engineering Tips
+  1. Goal
+  2. Clarity
+  3. Context
+  4. Refine   
+
+# WARNING Copilot Chat
+- Limited scope
+- Potential for bias
+- Security risks
+-  Inaccurate code
+-  Matches with public code
+
+-  Github link - https://github.com/ldynia/workshop-github-copilot-chat
+-  
