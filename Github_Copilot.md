@@ -1,3 +1,9 @@
+# Links for example
+- https://docs.github.com/en/copilot/github-copilot-chat/copilot-chat-in-ides/using-github-copilot-chat-in-your-ide
+- https://github.com/ldynia/workshop-github-copilot-chat/blob/main/chat/WORKSHOP.md
+- https://github.com/shaunwa/copilot-demo
+- https://github.com/timothywarner/copilotaio/tree/main
+- 
 
 #Copilot Shortcuts Linux
 
