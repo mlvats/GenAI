@@ -15,6 +15,8 @@ In this practice lab, you will:
 - Invoke AWS Lambda functions for RAG and prompt engineering through Amazon API Gateway.
 - Invoke Amazon Bedrock FMs by using the Amazon Kendra API-returned content and a prebuilt prompt.
 
+### Code is here - Branch Name - Serverless_Chatbot_Using_Private_Data, Folder Name -  serverless-chatbot-code
+
 ![image](https://github.com/user-attachments/assets/8bcdb57f-b858-4e9e-85db-223c28e7a5fb)
 
 
