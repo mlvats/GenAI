@@ -19,6 +19,7 @@ In this practice lab, you will:
 
 ![image](https://github.com/user-attachments/assets/8bcdb57f-b858-4e9e-85db-223c28e7a5fb)
 
-
 ---
+
+
 
