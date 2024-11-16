@@ -1,3 +1,5 @@
+# Serverless Chatbot Using Private Data
+
 # Solution Request
 - Build a serverless chatbot to perform RAG and prompt engineering from a knowledge base by using Amazon Bedrock, Amazon Kendra, and LangChain libraries.
 - This solution builds a serverless chatbot to perform Retrieval Augmented Generation (RAG) and prompt engineering from a knowledge base by using Amazon Bedrock, Amazon Kendra, and LangChain libraries.
@@ -20,6 +22,10 @@ In this practice lab, you will:
 ![image](https://github.com/user-attachments/assets/8bcdb57f-b858-4e9e-85db-223c28e7a5fb)
 
 ---
+
+![image](https://github.com/user-attachments/assets/474d63d8-5bcb-4353-8adb-3f334a287ebd)
+
+--------------
 
 
 
