@@ -1,4 +1,6 @@
 
+- https://github.com/aws-samples/amazon-bedrock-workshop
+- 
 - SageMaker Canvas Immersion Day :  
 TinyURL -https://tinyurl.com/yc8c4e37
 
