@@ -30,6 +30,35 @@ include how many hours each day they will need to train.
 
 -----
 Rewrite each of the following sentences as paragraphs: - Remove clutter from the floor,  Make the bed, - Dust flat surfaces, - Organise the desk, - Clean mirrors and windows, Vacuum the floor, - Do the laundry, - Organise the closet, - Dispose of trash
+- Try again in the style of the New York Times
+- Correct the grammar of the following: Me like ice cream. It taste num num. Me like it when add chocolate sprinkles. They make crunchy.
+- Give me 10 synonyms for "drunk"
+- Give me 10 synonyms for "hard to translate"
+- Translate the following to Basic Global English: To be, or not to be...., that is the question: Whether 'tis nobler in the mind to suffer The slings and arrows of outrageous
+fortune, Or to take Arms against a Sea of troubles
+
+----
+
+## Use tone
+- "Use tone X…"
+- Academic, Conversational, Casual, Confident
+- Descriptive, Encouraging, Enthusiastic, Excited
+- Firm, Formal, Friendly, Humorous
+- Informal, Light-hearted, Narrative, Persuasive
+- Poetic, Professional , Respectful, Sarcastic
+- Spartan, Serious, Sincere, Sympathetic
+
+# Output formats
+- "Output as a X…"
+- Table
+- Blog
+- Email
+- Bullets
+- Essay
+- Report
+- Presentation
+- Tweet, Social media post, Research paper…
+
 
 ----
 
