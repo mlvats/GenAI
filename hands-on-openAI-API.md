@@ -22,7 +22,8 @@ source openai_apis_venv/bin/activate
 # openai_apis_venv\Scripts\activate.bat
 ```
 
-# IPython kernel (ipykernel) is a Python package that provides the communication between the Jupyter Notebook or JupyterLab interface and the Python kernel. It enables you to run Python code interactively and display the output within the notebook environment.
+- IPython kernel (ipykernel) is a Python package that provides the communication between the Jupyter Notebook or JupyterLab interface and the Python kernel.
+- It enables you to run Python code interactively and display the output within the notebook environment.
 
 ```bash
 pip install ipykernel
