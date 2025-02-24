@@ -6,6 +6,9 @@ UI -
 -----
 Lambda Code is attached :
 
+AWs Architeture 
+
+![image](https://github.com/user-attachments/assets/7611a495-f193-4a9a-85f9-5f1b9497b89d)
 
 
 --------------
