@@ -1,3 +1,13 @@
+# AWS SimuLearn: Code Generation with Prompt Engineering
+
+Link - https://explore.skillbuilder.aws/learn/courses/20261/aws-simulearn-code-generation-with-prompt-engineering/lessons/144799/start-aws-simulearn
+UI -
+![image](https://github.com/user-attachments/assets/4890ee67-5c43-419b-a242-4b2f25903802)
+-----
+Lambda Code is attached :
+
+
+
 --------------
 <img width="963" alt="image" src="https://github.com/user-attachments/assets/f2cb83bd-cdb7-4494-8ed4-741437ad2514" />  
 
