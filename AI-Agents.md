@@ -1,4 +1,12 @@
 
+There are several open-source frameworks for building Vertical Agents with LLMs. Some notable ones include:
+
+1. CrewAI – Multi-agent orchestration framework for role-based AI agents.
+2. LangGraph – Graph-based multi-agent framework built on LangChain.
+3. AutoGen – Microsoft’s framework for LLM-powered agent collaboration.
+Thanks
+
+
 --
 ![image](https://github.com/user-attachments/assets/2e20a22f-913d-40cf-b5bf-70035c402df3)
 ----
