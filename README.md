@@ -1,8 +1,8 @@
 # GenAI
 
-AWS BedRock-  https://github.com/aws-samples/amazon-bedrock-workshop
-Agents - https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US
-Agents Workshop - https://ouf9vcqxhd5svev.studio.us-west-2.sagemaker.aws/jupyterlab/default/lab/tree/amazon-bedrock-samples/agents-and-function-calling/bedrock-agents/features-examples 
+AWS BedRock-  https://github.com/aws-samples/amazon-bedrock-workshop   
+Agents - https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US   
+Agents Workshop - https://github.com/aws-samples/amazon-bedrock-samples/tree/main/agents-and-function-calling/bedrock-agents/features-examples
 
 
                 ┌──────────────────────────────────────────┐
