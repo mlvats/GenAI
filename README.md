@@ -5,6 +5,7 @@
 - AWS BedRock Agent Samples :  https://github.com/awslabs/amazon-bedrock-agent-samples
 - Amazon Bedrock Workshop : https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US
 - Amazon Bedrock Agents Workshop : https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US
+- bedrock-multi-agents-collaboration-workshop : [****](https://github.com/aws-samples/bedrock-multi-agents-collaboration-workshop)
 
 AWS BedRock-  https://github.com/aws-samples/amazon-bedrock-workshop   
 Agents - https://catalog.workshops.aws/agents-for-amazon-bedrock/en-US   
