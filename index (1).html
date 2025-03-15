@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Harness the power of LangChain</title>
+    <style>
+        body {
+            font-family: Amazon Ember, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        #apiForm, #response {
+            background: #fff;
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        #apiForm label, #response label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        #apiForm input[type="text"], #apiForm textarea, #response textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            border: 1px solid #ddd;
+            box-sizing: border-box;
+        }
+        #apiForm button {
+            padding: 10px 20px;
+            background: #009578;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        h2, h5 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Harness the power of LangChain</h2>
+        <div id="apiForm">
+            <label for="apiGatewayUrl">API Gateway URL:</label>
+            <input type="text" id="apiGatewayUrl">
+            <label for="content">Prompt:</label>
+            <textarea id="content" rows="10"></textarea>
+            <button onclick="callApi()">Summarize</button>
+        </div>
+        <div id="response">
+            <label for="output">Output:</label>
+            <textarea id="output" rows="10" readonly></textarea>
+        </div>
+        <h5><i>Please note: As with all AI-powered applications, outputs should be reviewed for accuracy and appropriateness.</i></h5>
+    </div>
+    <script>
+        function callApi() {
+            var apiGatewayUrl = document.getElementById('apiGatewayUrl').value;
+            var content = document.getElementById('content').value;
+
+            fetch(apiGatewayUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ inputs: content, parameters: { 'max_new_tokens': 400 } })
+            })
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error(`HTTP error! Status: ${response.status}`);
+                }
+                return response.text(); // Get the response as text
+            })
+            .then(text => {
+                try {
+                    let cleanText = text.replace(/\\n|"/g, '');
+                    // Try to parse text as JSON
+                    const data = JSON.parse(cleanText);
+                    document.getElementById('output').value = JSON.stringify(data, null, 2);
+                } catch (e) {
+                    // If text is not JSON, just display it directly
+                    document.getElementById('output').value = text;
+                }
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                alert('An error occurred: ' + error.message);
+            });
+        }
+    </script>
+</body>
+</html>
