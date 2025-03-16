@@ -1,0 +1,102 @@
+# This AWS SAM template has been generated from your function's configuration. If
+# your function has one or more triggers, note that the AWS resources associated
+# with these triggers aren't fully specified in this template and include
+# placeholder values. Open this template in AWS Infrastructure Composer or your
+# favorite IDE and modify it to specify a serverless application with other AWS
+# resources.
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: An AWS Serverless Application Model template describing your function.
+Resources:
+  bedrockfunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./src
+      Description: ''
+      MemorySize: 128
+      Timeout: 300
+      Handler: lambda_function.lambda_handler
+      Runtime: python3.11
+      Architectures:
+        - x86_64
+      EphemeralStorage:
+        Size: 512
+      Environment:
+        Variables:
+          BEDROCK_MODEL_ID: amazon.titan-text-premier-v1:0
+      EventInvokeConfig:
+        MaximumEventAgeInSeconds: 21600
+        MaximumRetryAttempts: 2
+      Layers:
+        - !Ref Layer1
+      PackageType: Zip
+      Policies:
+        - Statement:
+            - Action:
+                - bedrock:InvokeModel
+              Resource:
+                - >-
+                  arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-express-v1
+                - >-
+                  arn:aws:bedrock:us-east-1::foundation-model/amazon.titan-text-premier-v1:0
+              Effect: Allow
+            - Action:
+                - logs:CreateLogGroup
+              Resource: arn:aws:logs:us-east-1:039402219532:*
+              Effect: Allow
+            - Action:
+                - logs:CreateLogStream
+                - logs:PutLogEvents
+              Resource: >-
+                arn:aws:logs:us-east-1:039402219532:log-group:/aws/lambda/bedrock_function:*
+              Effect: Allow
+            - Action:
+                - '*'
+              Resource:
+                - >-
+                  arn:aws:lambda:us-east-1:039402219532:function:gbl_lab_monitoring
+                - >-
+                  arn:aws:iam::039402219532:role/LabStack-a1f7bd15-91c1-4e-GblLabMonitoringgbllabmon-DTNS00yIoggo
+                - >-
+                  arn:aws:events:us-east-1:039402219532:rule/LabStack-a1f7bd15-91c1-4e-GblLabMonitoringmonitorin-oVqurzLz47tk
+                - >-
+                  arn:aws:events:us-east-1:039402219532:rule/LabStack-a1f7bd15-91c1-4e-GblLabMonitoringmonitorin-29G0mX97ESjo
+                - >-
+                  arn:aws:events:us-east-1:039402219532:rule/LabStack-a1f7bd15-91c1-4e-GblLabMonitoringmonitorin-3kgnzE9kO5t7
+                - >-
+                  arn:aws:events:us-east-1:039402219532:rule/LabStack-a1f7bd15-91c1-4e-GblLabMonitoringmonitorin-7TyYeDkHf4GC
+                - >-
+                  arn:aws:events:us-east-1:039402219532:rule/LabStack-a1f7bd15-91c1-4e-GblLabMonitoringmonitorin-DxPdlkyIp7Xj
+              Effect: Deny
+            - Action:
+                - lambda:PutProvisionedConcurrencyConfig
+              Resource: '*'
+              Effect: Deny
+      RecursiveLoop: Terminate
+      SnapStart:
+        ApplyOn: None
+      Events:
+        Api1:
+          Type: Api
+          Properties:
+            Path: /generate
+            Method: POST
+        Api2:
+          Type: Api
+          Properties:
+            Path: /generate
+            Method: POST
+      RuntimeManagementConfig:
+        UpdateRuntimeOn: Auto
+  # This resource represents your Layer with name langchain_layer. To download
+# the content of your Layer, go to
+# 
+# aws.amazon.com/go/view?arn=arn%3Aaws%3Alambda%3Aus-east-1%3A039402219532%3Alayer%3Alangchain_layer%3A1&source=lambda
+  Layer1:
+    Type: AWS::Serverless::LayerVersion
+    Properties:
+      ContentUri: ./langchain_layer
+      LayerName: langchain_layer
+      CompatibleRuntimes:
+        - python3.11
+        - python3.10
