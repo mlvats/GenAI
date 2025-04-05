@@ -1,3 +1,7 @@
+## Vector database compariso
+- https://docs.aws.amazon.com/prescriptive-guidance/latest/choosing-an-aws-vector-database-for-rag-use-cases/vector-db-comparison.html
+- https://docs.aws.amazon.com/prescriptive-guidance/latest/rag-healthcare-use-cases/use-cases-talent-mgmt.html  (knowledge graph)
+
 # GenAI
 # AWS Code and Workshop Links:
 
