@@ -1,3 +1,36 @@
+Basic Background
+	•	Name: Ankit
+	•	Place of Birth: Delhi, India
+	•	Raised in: Mumbai (moved there at age 3–4)
+	•	Native Affinity: Prefers Mumbai or Delhi for living in India, though later appreciated Bangalore’s young, vibrant crowd despite the traffic.
+
+⸻
+
+Education
+	•	Undergraduate: B.Tech in Computer Science from SRM University, India.
+	•	Developed interest in Machine Learning (ML) early (2016–2017).
+	•	Took ML courses outside core curriculum whenever possible.
+	•	Final-year project: Moving object detection device for the visually impaired (speed & type of object detection).
+	•	Published a research paper during undergrad.
+	•	Postgraduate: Master’s in Data Science from University of Pennsylvania (UPenn), USA.
+	•	Joined in Aug 2021; graduated June 2023.
+	•	Actively engaged in research and lab work at UPenn, especially in NLP and computer vision.
+
+⸻
+
+Career Path
+	1.	Early Career in India:
+	•	Initially worked as a developer in Bangalore, focused heavily on SQL and backend work.
+	2.	Data Science & AI:
+	•	Interest in ML/NLP began during undergrad; learned from platforms like Analytics Vidhya.
+	•	Worked in NLP and computer vision after postgrad.
+	3.	Current Role:
+	•	Machine Learning Engineer at Vanguard (joined Oct 2023).
+	•	Works on a project called GCT / Call Insights, involving ML-driven call transcription and analysis.
+
+
+
+
 Thank you for sharing your transcript, Moti. Here’s a reviewed and cleaned-up version of your GraphQL API presentation transcript, making it more coherent, grammatically correct, and professional while retaining your original ideas and flow.
 
 ⸻
